@@ -9,3 +9,7 @@ Luego tenemos una pestaña en la cuál se realiza mediante un formulario la rese
 Personas desea su reservación. 
 Finalizando tenemos una pantalla de créditos donde se muestra los desarroladores. 
 
+A CONTINUACIÓN PRESENTAMOS EL ENLACE A NUESTRO ESPACIO DE TRABAJO, DONDE ESTÁN LAS TAREAS QUE SE HAN EFECTUADO. 
+
+LINK: https://conscious-slime-28c.notion.site/Proyecto-LME-f27154e3cba249f3b4acde5bd867f16d
+
