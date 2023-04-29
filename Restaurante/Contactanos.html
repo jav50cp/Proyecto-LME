@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>La Delicia SV</title>
+</head>
+<body>
+    <header>
+        <img src="img/Logo.png" alt="Logo de la página" id="logotyp">        
+        <nav id="menunav">
+            <ul class="menu">
+                <li id="minicio"><a href="Inicio.html">Inicio</a></li>
+                <li id="mmenu"><a href="Menu.html">Menú</a></li>
+                <li id="mgaleria"><a href="Galeria.html">Galería</a></li>
+                <li id="mlogin"><a href="Login.html">Login</a></li>
+                <li id="mcontacto"><a href="Contactanos.html">Contáctenos</a></li>
+                <li id="mcreditos"><a href="Creditos.html">Créditos</a></li>
+            </ul>            
+        </nav>        
+    </header>        
+    <br>
+    <hr>
+    <br>
+    <main>
+        <article>
+            <h1 class="form__title">Reserva en linea:</h1>
+            <hr>
+            <form class="form">
+                <label for="nombre">Nombre completo:</label>
+                <input class="form__input" type="text" id="nombre" name="nombre" required>
+          <br>
+          <br>
+                <label for="fecha">Fecha de reserva:</label>
+                <input class="form__input" type="date" id="fecha" name="fecha" required>
+          <br>
+          <br>
+                <label for="telefono">Teléfono de contacto:</label>
+                <input class="form__input" type="tel" id="telefono" name="telefono" required>
+          <br>
+          <br>
+                <label for="email">Correo electrónico:</label>
+                <input class="form__input" type="email" id="email" name="email" required>
+          <br>
+          <br>
+                <label for="cantidad">Cantidad de personas:</label>
+                <input class="form__input" type="number" id="cantidad" name="cantidad" min="1" max="10" required>
+          <br>
+          <br>
+                <label for="comentario">Comentario:</label>
+                <textarea class="form__input" id="comentario" name="comentario"></textarea>
+          <br>
+          <br>
+                <input class="form__input" type="checkbox" id="terminos" name="terminos" required>
+                <label for="terminos">Acepto los términos y condiciones</label>
+          <br>
+          <br>
+                <button type="submit" >Reservar</button>
+              </form>
+        </article>
+        <br>
+        <br>
+        <aside id="separacion">
+            <article class="izquierda3">
+            <h3>Telefonos de contacto</h3>
+           
+            <p>Telefono Fijo: 2291-1163 </p>
+            <p>WhatsApp: 7048-4990</p>
+        </article>
+        <article id="derecha3">
+            <h3>Correo Electronico</h3>
+         
+            <p>
+                ladeliciasv@gmail.com
+            </p>
+        </article>
+        </aside>
+    </main>
+</body>
+<hr>
+<footer>
+    Derechos de autor - CC BY
+</footer>
+</html>
