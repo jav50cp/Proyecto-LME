@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/Funcionalidad formulario"></script>
+    <title>La Delicia SV</title>
+</head>
+<body>
+    <header>
+        <img src="img/Logo.png" alt="Logo de la página" id="logotyp">        
+        <nav id="menunav">
+            <ul class="menu">
+                <li id="minicio"><a href="Inicio.html">Inicio</a></li>
+                <li id="mmenu"><a href="Menu.html">Menú</a></li>
+                <li id="mgaleria"><a href="Galeria.html">Galería</a></li>
+                <li id="mlogin"><a href="Login.html">Login</a></li>
+                <li id="mcontacto"><a href="Contactanos.html">Contáctenos</a></li>
+                <li id="mcreditos"><a href="Creditos.html">Créditos</a></li>
+            </ul>            
+        </nav>        
+    </header>       
+    <br>
+    <hr>
+    <br>
+    <article>
+        <h1 class="form__title">Inicio de sesión</h1>
+    <form class="form">
+
+      <label id="user" for="usuario">Usuario o correo electrónico:</label>
+      <br>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+      </svg>
+      <input class="form__input"  type="text" id="usuario" name="Usuario" required pattern="[a-z]+" placeholder="Nombre de usuario">
+      <br>
+      <hr>
+      <label for="contrasena">Contraseña:</label>
+      <br>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-unlock" viewBox="0 0 16 16">
+        <path d="M11 1a2 2 0 0 0-2 2v4a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h5V3a3 3 0 0 1 6 0v4a.5.5 0 0 1-1 0V3a2 2 0 0 0-2-2zM3 8a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1H3z"/>
+      </svg>
+      <input class="form__input" type="password" id="contrasena" name="contrasena" required placeholder="Contraseña">
+      <br>
+      <hr>
+      <br>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+        <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+      </svg>
+      <button class="form__cta" type="submit" onclick="Login()">Iniciar sesión</button>
+
+      <p>No tienes una cuenta? <a href="Contactanos.html">Regístrate aquí</a>.</p>
+    </form>
+
+    </article>
+</body>
+<br>
+<br>
+<footer>
+    Derechos de autor - CC BY
+</footer>
+</html>
